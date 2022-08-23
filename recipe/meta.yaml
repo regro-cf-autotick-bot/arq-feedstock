@@ -20,10 +20,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
-    - python >=3.6
-    - aioredis >=1.1.0
+    - python >=3.7
+    - redis >=4.2.0rc2
     - click >=6.7
     - pydantic >=1
     - dataclasses >=0.6
