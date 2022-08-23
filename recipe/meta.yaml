@@ -23,7 +23,7 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - redis >=4.2.0rc2
+    - redis-py >=4.2.0rc2
     - click >=6.7
     - pydantic >=1
     - dataclasses >=0.6
