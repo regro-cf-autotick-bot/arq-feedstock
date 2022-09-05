@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - hatchling
   run:
     - python >=3.7
     - redis-py >=4.2.0
