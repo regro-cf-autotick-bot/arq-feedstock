@@ -24,7 +24,10 @@ requirements:
   run:
     - python >=3.7
     - redis-py >=4.2.0
-    - hiredis >=1.0.0  # (extras_require for reddis[hiredis])
+
+    # (extras_require for reddis[hiredis])
+    - hiredis >=1.0.0
+
     - click >=8.0
     - typing-extensions >=4.1.0
 
