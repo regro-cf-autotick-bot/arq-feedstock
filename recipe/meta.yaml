@@ -1,5 +1,5 @@
 {% set name = "arq" %}
-{% set version = "0.25.0" %}
+{% set version = "0.26.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arq-{{ version }}.tar.gz
-  sha256: d176ebadfba920c039dc578814d19b7814d67fa15f82fdccccaedb4330d65dae
+  sha256: 73867aeaa366033c7c7f071821bddca734bcf5735f04ae277de477f0ed3938a0
 
 build:
   number: 0
@@ -20,17 +20,16 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - hatchling
   run:
-    - python >=3.7
-    - redis-py >=4.2.0
+    - python >=3.8
+    - redis-py >=4.2.0,<5
 
     # (extras_require for reddis[hiredis])
     - hiredis >=1.0.0
 
     - click >=8.0
-    - typing-extensions >=4.1.0
 
 test:
   imports:
