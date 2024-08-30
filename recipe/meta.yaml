@@ -24,7 +24,7 @@ requirements:
     - hatchling
   run:
     - python >=3.8
-    - redis-py >=4.2.0,<5
+    - redis-py >=4.2.0,<6
 
     # (extras_require for reddis[hiredis])
     - hiredis >=1.0.0
