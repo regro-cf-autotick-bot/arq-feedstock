@@ -1,5 +1,5 @@
 {% set name = "arq" %}
-{% set version = "0.26.1" %}
+{% set version = "0.26.3" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arq-{{ version }}.tar.gz
-  sha256: a4db5395c3aaefe0610074b0aa125ff3392aa90a2214973be566796a5819d9cf
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/arq-{{ version }}.tar.gz
+  sha256: 362063ea3c726562fb69c723d5b8ee80827fdefda782a8547da5be3d380ac4b1
 
 build:
   number: 0
